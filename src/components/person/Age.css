@@ -1,0 +1,13 @@
+.age {
+    background-color: #475580;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	border-radius: 5px;
+	padding: 0px 20px;
+	display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.age p {
+    color: white;
+}

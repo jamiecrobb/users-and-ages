@@ -1,0 +1,15 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    margin: 10px 10px;
+}
