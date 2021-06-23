@@ -7,7 +7,7 @@ import "./Person.css"
 const Person = (props) => {
   return (
       <Card className="person">
-        <h2>Name: {props.name}</h2>
+        <h2>{props.name}</h2>
         <Age age={props.age} />
       </Card>
   );

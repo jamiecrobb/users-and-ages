@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
 import PersonList from "./components/person/PersonList";
-import NewPerson from "./components/New Person/NewPerson";
+import NewPerson from "./components/New Person or Search/NewPerson";
+import Search from "./components/New Person or Search/Search";
+import PersonOrSearch from './components/New Person or Search/PersonOrSearch';
 
 const dummyPeople = [
-  { name: "Jamie Robb", age: "17", id: 1},
-  { name: "Matthew Robb", age: "13", id: 2 },
+  { name: "Jeff Bezos", age: "57", id: 1},
 ];
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
   return (
     <div>
       <h1>People & Ages</h1>
-      <NewPerson onAddPerson={addPersonHandler} />
+      <PersonOrSearch addPerson={addPersonHandler}/>
       <PersonList people={people} />
     </div>
   );
